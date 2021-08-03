@@ -1,5 +1,4 @@
-## The `with` keyword compatable `with-es6`
-_Pun intended_
+## The `with` keyword compatable with es6
 
 ```javascript
 import wth from "./withes6.js"
