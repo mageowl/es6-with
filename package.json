@@ -1,0 +1,17 @@
+{
+	"name": "with-es6",
+	"version": "1.0.0",
+	"description": "The with keyword, except with-es6.",
+	"main": "withnpm.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/seattleowl/with-es6.git"
+	},
+	"keywords": [],
+	"author": "seattleowl",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/seattleowl/with-es6/issues"
+	},
+	"homepage": "https://github.com/seattleowl/with-es6#readme"
+}
