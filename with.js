@@ -14,14 +14,14 @@ function wth(obj, cb) {
 		console.warn(
 			"You are using wth() on an object without requesting any properties.\nCalling callback anyway."
 		);
-		cb();
+		return cb();
 	}
 
-	cb(
+	return cb(
 		...props.map((key) => {
 			if (!obj.hasOwnProperty(key)) {
 				console.warn(
-					`You are using wth() on the ${obj} and requesting the property ${key}, which it doesn't have. Passing undefined to function.`
+					`You are using wth() on the ${obj} and requesting the property ${key}, which it doesn't have. Passing undefined to callback.`
 				);
 				return undefined;
 			}
